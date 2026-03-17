@@ -1,0 +1,56 @@
+BETİK HAFTA 7 
+# hesap makinesi oluşturma
+
+class hesapmakinesi:     # fabrikasyon - seri üretim yapıyoruz.
+    def __int__(self, a,b): # parametreyi self den sonra alıyoruz. self kendisi , iha gibi. 
+        self.say1=a 
+          self.say2=b 
+    def carpma(self):
+        sonuc=self.say1*salf.say2 
+        print(sonuc)
+    def topla(self):
+    sonuc = self.say1+salf.say2
+    print(sonuc)
+    
+**********************
+# hesap makinesi oluşturma
+
+class smarthm:     # fabrikasyon - seri üretim yapıyoruz.
+    def __int__(self, a,b): # parametreyi self den sonra alıyoruz. self kendisi , iha gibi.
+        self.say1=a
+          self.say2=b
+          self.memory=[]
+    def carpma(self):
+        sonuc=self.say1*salf.say2
+        self.memory.append(sonuc)
+        print(sonuc)
+    def topla(self):
+    sonuc = self.say1+salf.say2
+    self.memory.append(sonuc)
+    print(sonuc)
+b=smarthm(6,8)
+b.carpma() 
+*****************************************
+# hesap makinesi oluşturma
+
+class smarthm:     # fabrikasyon - seri üretim yapıyoruz.
+    def __int__(self, a,b): # parametreyi self den sonra alıyoruz. self kendisi , iha gibi.
+        self.say1=a
+          self.say2=b
+          self.memory=[]
+    def yenisayi(self,c,d): # sayıları değiştirmeye imkan tanıyor.
+        self.say1=c
+        self.say2=d
+    def carpma(self):
+        sonuc=self.say1*self.say2
+        self.memory.append(sonuc)
+        print(sonuc)
+    def topla(self):
+    sonuc = self.say1+salf.say2
+    self.memory.append(sonuc)
+    print(sonuc)
+********************************
+
+
+
+
