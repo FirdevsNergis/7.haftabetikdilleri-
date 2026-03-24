@@ -2,7 +2,7 @@ BETİK HAFTA 7
 # hesap makinesi oluşturma
 
 class hesapmakinesi:     # fabrikasyon - seri üretim yapıyoruz.
-    def __int__(self, a,b): # parametreyi self den sonra alıyoruz. self kendisi , iha gibi. 
+    def __init__(self, a,b): # parametreyi self den sonra alıyoruz. self kendisi , iha gibi. 
         self.say1=a 
           self.say2=b 
     def carpma(self):
