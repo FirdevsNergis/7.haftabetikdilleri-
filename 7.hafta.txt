@@ -30,6 +30,8 @@ class smarthm:     # fabrikasyon - seri üretim yapıyoruz.
     print(sonuc)
 b=smarthm(6,8)
 b.carpma() 
+A.memory # dizi şeklinde gösterdi. [40,40,13] , A bir obje
+A.memory.pop() # en son eklenen eleman çıktı. [40,40]
 *****************************************
 # hesap makinesi oluşturma
 
@@ -48,7 +50,7 @@ class smarthm:     # fabrikasyon - seri üretim yapıyoruz.
     def topla(self):
     sonuc = self.say1+salf.say2
     self.memory.append(sonuc)
-    print(sonuc)
+    print(sonuc) 
 ********************************
 
 
